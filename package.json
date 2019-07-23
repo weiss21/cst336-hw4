@@ -1,0 +1,25 @@
+{
+  "name": "cst336-hw4",
+  "version": "1.0.0",
+  "description": "Recreation of HW1 using Express!!",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "knock-knock-jokes": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiss21/cst336-hw4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weiss21/cst336-hw4/issues"
+  },
+  "homepage": "https://github.com/weiss21/cst336-hw4#readme"
+}
