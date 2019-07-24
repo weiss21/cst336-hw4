@@ -42,7 +42,7 @@ app.get("/android", function(req, res) {
 
 app.get("/other", function(req, res) {
   res.render("other.html", {
-    "generateText": phrase
+    "generateText": combine
   });
 });
 

@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "faker": "^4.1.0",
-    "knock-knock-jokes": "^1.7.0"
+    "ejs": "^2.6.2"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/weiss21/cst336-hw4.git"
   },
-  "author": "",
+  "author": "Wais or weiss21",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/weiss21/cst336-hw4/issues"
