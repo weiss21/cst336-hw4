@@ -4,13 +4,14 @@ The Bootstrap page that was linked to us. https://getbootstrap.com/docs/3.3/gett
 And of course our Instructor and TA who are very helpful in this course!
 */
 
-body{
-    background-color: #383838;
-
+body {
+  background: #757474;
+  !important
 }
 
-header, nav{
-    text-align:center;
+header,
+nav {
+  text-align: center;
 }
 
 nav {
@@ -18,7 +19,7 @@ nav {
   background-color: #333;
 }
 
-nav a{
+nav a {
   float: left;
   font-size: 16px;
   color: white;
@@ -27,81 +28,86 @@ nav a{
   text-decoration: none;
 }
 
-nav a:hover, #currentPage{
-    border-bottom: 3px orange solid;
-    border-top:3px orange solid;
-    transition: .5s;
-    box-shadow: inset 0 0 0 2em #53a7ea;
-    font-size: 2.5em;
+nav a:hover,
+#currentPage {
+  border-bottom: 3px orange solid;
+  border-top: 3px orange solid;
+  transition: .5s;
+  box-shadow: inset 0 0 0 2em #53a7ea;
+  font-size: 2.5em;
 }
 
-nav{
-    padding-bottom: .8em
+nav {
+  padding-bottom: .8em
 }
+
 .topnav a {
-    float: top;
-    float:center;
-    background-color: white;
-    color: black;
-    text-align: top;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+  float: top;
+  float: center;
+  background-color: white;
+  color: black;
+  text-align: top;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Add a color to the active/current link */
+
 .topnav a.active {
-    background-color: gray;
-    color: white;
+  background-color: gray;
+  color: white;
 }
+
 article {
-    text-align: left;
+  text-align: left;
 }
 
-footer,footer a{
-    clear: both;
-    color:white;
-    text-decoration: none;
+footer,
+footer a {
+  clear: both;
+  color: white;
+  text-decoration: none;
 }
 
-main,footer{
-    text-align: center;
-    width:50em;
-    margin:0px auto;
+main,
+footer {
+  text-align: center;
+  width: 50em;
+  margin: 0px auto;
 }
 
-
-#picMain{
-    float:left;
-    padding-top: 5em;
-    padding-left:5em;
-    margin-left: 3em;
+#picMain {
+  float: left;
+  padding-top: 5em;
+  padding-left: 5em;
+  margin-left: 3em;
 }
 
-.border {
-	margin: 0 auto;
-	border: 10px outset #ddd;
-}
-.pict{
-    float:left;
-    padding-top: 15em;
-    padding-left:5em;
-    margin-left: 3em;
+.pict {
+  float: left;
+  padding-top: 15em;
+  padding-left: 5em;
+  margin-left: 3em;
 }
 
-
-.text{
-    width:23em;
-    float: left;
+.text {
+  width: 23em;
+  float: left;
+  margin-right: 50px;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+/* Test below for right float*/
+.rtext {
+  width: 23em;
+  float: right;
+}
+
+h2, h4 {
+  color:white
 }

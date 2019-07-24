@@ -15,7 +15,12 @@ var serial = process.env.IP || "0.0.0.0"; // same as comment above
 //app.listen("8081", "0.0.0.0", function(){
 //  console.log("Express Server is Running...")
 //});
+//faker
+var names = faker.name.findName() + ' who works for ' + faker.company.companyName() + " says:";
+var phrase = faker.hacker.phrase();
 
+//below pic not working out as I intended
+var pics = faker.image.avatar();
 
 // Heroku update server listener
 app.listen(port, serial, function() {
@@ -36,8 +41,8 @@ app.get("/android", function(req, res) {
 });
 
 app.get("/other", function(req, res) {
-  res.render("other.html");
+  res.render("other.html", {
+    "generateText": names, "generatePhrase": phrase
+  });
 });
-
-
 
