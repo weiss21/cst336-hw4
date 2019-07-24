@@ -18,7 +18,7 @@ var serial = process.env.IP || "0.0.0.0"; // same as comment above
 //faker
 var names = faker.name.findName() + ' who works for ' + faker.company.companyName() + " says:";
 var phrase = faker.hacker.phrase();
-
+var combine = names + "\n" + phrase;
 //below pic not working out as I intended
 var pics = faker.image.avatar();
 
@@ -42,7 +42,7 @@ app.get("/android", function(req, res) {
 
 app.get("/other", function(req, res) {
   res.render("other.html", {
-    "generateText": names, "generatePhrase": phrase
+    "generateText": phrase
   });
 });
 
