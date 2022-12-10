@@ -4,7 +4,7 @@
   "description": "Recreation of HW1 using Express!!",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "ejs": "^2.6.2"
   },
